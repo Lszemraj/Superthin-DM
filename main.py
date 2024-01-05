@@ -8,6 +8,8 @@ fits_file_path = (
 )
 hdul = fits.open(fits_file_path)
 hdr = hdul[0].header
+
+#memes
 data_image = hdul[0].data
 
 # printing all file names
